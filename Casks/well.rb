@@ -4,23 +4,23 @@ cask "well" do
 
   on_macos do
     on_intel do
-      sha256 "ec1ae6950fe5ec5a6ba2d0c7a27457c30541a4052d12f9b74664b26b9b80a63a"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well_#{version}_darwin_amd64.tar.gz"
+      sha256 "3e4936f4379fccdff1420203b04ef572efc71d6c5117fb45cb6218f2358de821"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "8c082a9e6e630fd1eb2cbc124e238a80fe0c2cec0312ac2bed536d79ad3a0571"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well_#{version}_darwin_arm64.tar.gz"
+      sha256 "e370eda1edb77e772679b4532babf2cfc56f089d9740db42c194d657753402ae"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "b9750af0918b4cf677e6908e9872ce3473e3bb1270dfd59a54a5ac94349c56ae"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well_#{version}_linux_amd64.tar.gz"
+      sha256 "334b36446b50c29e7662645272126e7407be7653e812c5923c4207486c6c5164"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "7bf390c6d1dd74da9870703c56bf6143bee0b776d675e5ffa71fcf71d3f8ab50"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well_#{version}_linux_arm64.tar.gz"
+      sha256 "37582bc25591f9413a190f2151dfdf6e10b5ed2fb5e8823ee7852f413cf37741"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well_#{version}_linux_arm64.tar.gz"
     end
   end
 
