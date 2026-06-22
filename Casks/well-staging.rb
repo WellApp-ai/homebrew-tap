@@ -4,23 +4,23 @@ cask "well-staging" do
 
   on_macos do
     on_intel do
-      sha256 "a5e722a7ded5010271d101e3a66f7aeb44e5b4ccd7ae2f639b46aea612650aa6"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well-staging_#{version}_darwin_amd64.tar.gz"
+      sha256 "500c3979f2074159e202f4caf5562bdeca8027dc473cfda744c8b943ae0455b0"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well-staging_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ecd6199a7ed91bcfcacb9d1eb219980a34083c75fbea121ecf4fd4ea49aea991"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well-staging_#{version}_darwin_arm64.tar.gz"
+      sha256 "90ea5c3b7e96f244cfdd8c01b0b64bfa3ab177520effef7bb9d69603f05418db"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well-staging_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "05ec7885a1860c382042e6e16f76f992422fe4da566a9f874f401dedfdd62ec3"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well-staging_#{version}_linux_amd64.tar.gz"
+      sha256 "79c3888098bb144140a828e307aaded97b826013ebfa436269cf772c29082a5a"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well-staging_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "394ff207e3b1d7381ff742ca1148ecda3a6ec04dea1bb614fa50c6e9990a8a38"
-      url "https://github.com/WellApp-ai/platform/releases/download/v#{version}/well-staging_#{version}_linux_arm64.tar.gz"
+      sha256 "bab831d57eae0d23a2642b8c9a73f03cf2138aa334c35cbe658dcf0a579a2051"
+      url "https://github.com/WellApp-ai/homebrew-tap/releases/download/v#{version}/well-staging_#{version}_linux_arm64.tar.gz"
     end
   end
 
